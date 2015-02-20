@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        
+        <!-- Google Charts -->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="js/google-charts.js"></script>
+        
+        <!--D3-->
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        
+        <!--Lightbox CSS -->
+        <link href="css/lightbox.css" rel="stylesheet" />
+        
+        
+       
+    </head>
+    <body>
+        <div id="wrapper">
+
+            
+            <div class="card" id="card1">
+                <nav data-0="background-color:rgba(255,255,255,0); border-color:rgba(255,255,255,0); color:rgba(255,255,255,1);" 
+                     data-700="background-color:rgba(255,255,255,1); border-color: rgba(0,0,0,1); color: rgba(0,0,0,0.8);">
+                    <ul>
+                        <li>Julie<span> Vera</span></li>
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#work" class="scroll">Work</a></li>
+                        <li><a href="#cv" class="scroll">CV</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                    </ul>
+                </nav>   
+                <div class="camera" id="splashcamera">
+                    <a href="img/mountains.jpg" data-lightbox="img/mountains.jpg" data-title="&copy 2013 Julie Vera. Big Sur, California"><img src="img/camera.svg"/></a>
+                </div>
+                 
+                <div class="text-center" id="splashtext"> 
+                    <h1>Julie <span>Vera</span></h1>
+                    <h3>digital advertising <span>|</span> analytics <span>|</span> front-end web development</h3>
+                    <div id="downarrow"><a href="#about" class="scroll"><img src="img/downarrow.svg"/></a></div>
+                </div>
+            </div> <!-- End card 1-->
+
+            <div class="card" data-stellar-background-ratio:"0.5" id="card2">
+                <h2 id="about">About</h2>
+                <div id="aboutwrapper" data-350="color:rgb(255,255,255);" data-700="color:rgb(170,170,170);" data-1000="color:rgb(20,20,20);">
+                    <p>I'm Julie, a Boston-based digital advertising and marketing nerd, analyst, and builder of web experiences.</p>
+                    <p>I'm also a founding partner of independent digital consulting firm, <a href="http://toypig.co">Toy Pig Co.</a></p>
+                    <p>My interest in all things digital started at age of 12 with a pirated copy of MS FrontPage. I never quite left the digital space. </p>
+                   
+                </div>
+            </div><!-- end card 2-->
+
+            <div class="card" id="card3">
+                <div class="camera" id="card3camera">
+                    <a href="img/architecture.jpg" data-lightbox="img/architecture.jpg" data-title="&copy 2013 Julie Vera. American Architectural Iron Corp., East Boston, Massachusetts"><img src="img/camera.svg"/></a>
+                </div>
+            </div><!-- end card 3 -->
+            
+          
+
+            <div class="card" data-stellar-background-ratio:"0.3" id="card4">
+                <h2 id="work">Work</h2>
+
+                <div id="worktiles">
+                    <div class="tilerow">
+                        <div class="tile" id="tile1">
+                            <a href="img/nowhere.jpg" data-lightbox="img/nowhere.jpg" data-title="&copy 2013 Julie Vera. Sacramento, California"><img src="img/nowhere.jpg"/></a>
+                            <p>Photography</p>
+                        </div>
+                        <div class="tile" id="tile2">
+                            <a href="img/piggyphotoshoot.jpg" data-lightbox="img/piggyphotoshoot.jpg" data-title="&copy 2014 Julie Vera. Photography for Toy Pig Co."><img src="img/piggyphotoshoot.jpg"/></a>
+                            <p>Toy Pig Co.</p>
+                        </div>
+                        <div class="tile" id="tile3">
+                            <a href="img/sweet.png" data-lightbox="img/sweet.png" data-title="Image courtsey Spółdzielnia Pokój. Copywriting for USA introduction"><img src="img/sweet.png"/></a>
+                            <p>Spółdzielnia Pokój</p>
+                        </div>
+                        <div class="tile" id="tile4">
+                            <a href="img/weddinglogo.png" data-lightbox="img/weddinglogo.png" data-title="&copy 2014 Julie Vera. Logo, branding, web design & development for wedding"><img src="img/weddinglogo.png"/></a>
+                            <p>Wedding</p>
+                        </div>
+                    </div>
+                    <div class="tilerow">
+                        <div class="tile" id="tile1">
+                            <a href="img/winter.jpg" data-lightbox="img/winter.jpg" data-title="&copy 2015 Julie Vera. Smuggler's Notch, Vermont"><img src="img/winter.jpg"/></a>
+                            <p>Photography</p>
+                        </div>
+                        <div class="tile" id="tile2">
+                            <a href="img/toypiglogo.png" data-lightbox="img/toypiglogo.png" data-title="&copy 2014 Julie Vera. Logo, branding, web design & development for Toy Pig Co."><img src="img/toypiglogo.png"/></a>
+                            <p>Toy Pig Co.</p>
+                        </div>
+                        <div class="tile" id="tile3">
+                            <a href="img/tower.jpg" data-lightbox="img/tower.jpg" data-title="&copy 2014 Julie Vera. Smoke Stack, East Boston, Massachusetts"><img src="img/tower.jpg"/></a>
+                            <p>Photography</p>
+                        </div>
+                        <div class="tile" id="tile4">
+                            <a href="img/portsmouth.jpg" data-lightbox="img/portsmouth.jpg" data-title="&copy 2014 Julie Vera. Portsmouth, New Hampshire"><img src="img/portsmouth.jpg"/></a>
+                            <p>Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end card 4-->
+
+            <div class="card" id="card5">
+                <div class="camera" id="card5camera">
+                    <a href="img/tinhouse.jpg" data-lightbox="img/tinhouse.jpg" data-title="&copy 2013 Julie Vera. The Tin House. Big Sur, California"><img src="img/camera.svg"/></a>
+                </div>
+            </div> <!-- end card 5 -->
+
+            <div class="card" id="card6">
+                <h2 id="cv">CV</h2>
+                    <div id="chart1wrapper">
+                        <p>Education</p>
+                        <div id="chart1">
+                        </div>
+                    </div>
+                    <div id="chart2wrapper">
+                        <p>Skills</p>
+                        <div id="chart2">
+                        </div>
+                    </div>
+                    <div id="chart3wrapper">
+                        <p>Experience</p>
+                        <div id="chart3">
+                        </div>
+                    </div>
+                    <div id="chart4wrapper">
+                        <p>Interests</p>
+                        <div id="chart4">
+                        </div>
+                    </div>
+
+            </div><!-- end card 6 -->
+            
+          <div class="card" id="card7">
+                
+                <div id="chicletContainer">
+                        <a href="http://linkedin.com/in/julievera"><img class="chiclet" src="img/li-icon.svg"/></a>
+                        <a href="https://www.facebook.com/julieannevera"><img class="chiclet" src="img/facebook-icon.svg"/></a>
+                        <a href="https://twitter.com/julievera"><img class="chiclet" src="img/twitter-icon.svg"/></a>
+                        <a href="https://pinterest.com/julievera"><img class="chiclet" src="img/pinterest-icon.png"/></a>
+                        <a href="https://instagram.com/shinytoything"><img class="chiclet" src="img/instagram-icon.png"/></a>
+                </div>
+                
+          </div><!-- end card 7-->  
+            
+          
+            <div class="card" id="card8">
+                <h2 id="contact">Contact</h2>
+                
+                <div id="contactContainer">
+                    
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted)
+                    {window.location='thankyou.html';}"></iframe>
+                    <form action="https://docs.google.com/forms/d/1SxE2TmATuTHj2irLRR0rO4aepOhLLQStkpSZiS6pa70/formResponse" method="post"
+                    target="hidden_iframe" onsubmit="submitted=true;">
+                    <ol role="list" class="ss-question-list" style="padding-left: 0">
+                    <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_105510293"><div class="ss-q-title">Name<span>*</span>
+                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label></div>
+                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+                    <input type="text" name="entry.105510293" value="" class="ss-q-short" id="entry_105510293" dir="auto" aria-label="Name  " aria-required="true" required="" title=""></div></div></div> 
+                    <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_999145718"><div class="ss-q-title">Email<span>*</span>
+                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                    </div>
+                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+                    <input type="email" name="entry.999145718" value="" class="ss-q-short" id="entry_999145718" dir="auto" aria-label="Email  please enter a valid email!" aria-required="true" required="" title="please enter a valid email!"></div></div></div>  
+                    <div class="ss-form-question errorbox-good" role="listitem">
+                    <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_762288219"><div class="ss-q-title">Message<span>*</span>
+                    <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label></div>
+                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+                    <textarea name="entry.762288219" rows="8" cols="0" class="ss-q-long" id="entry_762288219" dir="auto" aria-label="Message  " aria-required="true" required=""></textarea></div></div></div>
+                    <input type="hidden" name="draftResponse" value="[,,&quot;-2721860258426317557&quot;]">
+                    <input type="hidden" name="pageHistory" value="0">
+                    <input type="hidden" name="fbzx" value="-2721860258426317557">
+                    <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                    <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+                    </td>
+                    </tr></tbody></table></div></ol>
+                    </form>
+               </div>
+
+                <div id="socialContainer">
+                    <div id="twitterContainer">
+                        <a class="twitter-timeline" href="https://twitter.com/JulieVera" data-widget-id="559539915768086533">
+                            </a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)                [0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                   </div>    
+                </div>       
+</div> <!-- end card 8 -->
+            
+            <div class="card" id="card9">
+                <footer>
+                        <p>©2015 Julie Vera</p>
+                        <p>Made in Boston.</p>
+                </footer>
+            </div>    <!-- end card 9 -->
+
+            
+
+            
+
+             
+      </div>   <!-- end wrapper --> 
+
+<!-- BEGIN SCRIPTS -->
+        <!-- JQUERY -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="js/main.js"></script>
+
+        <!-- STELLAR (Parallax) -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <script>
+            $.stellar();
+            $(function () {
+
+              $("#wrapper").scroll(function () {
+
+                var top = $("#wrapper").scrollTop();
+
+                var offset = 0;
+                var speed = 0.1;
+
+                $(".card").css({
+                  backgroundPositionY: (-top * speed + offset) + "px"
+                });
+              });
+            });
+        </script>
+
+        <!-- SKROLLR (NON-JQUERY FADES) -->
+        <script type="text/javascript" src="js/skrollr.js"></script>
+        <script type="text/javascript">
+        var s = skrollr.init();
+        </script>
+            
+        <!--Lightbox JS -->
+        <script src="js/lightbox.min.js"></script>
+
+
+    </body>
+</html>
