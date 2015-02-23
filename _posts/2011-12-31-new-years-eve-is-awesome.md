@@ -1,10 +1,10 @@
 ---
 layout: post
-recipe-attribution: Julie
-excerpt_separator:<!--more-->
+title: This is my first post
+post_author: Julie
+published: true
+category: general
+excerpt_separator: <!--more-->
 ---
 
 Womp womp. Would you like breakfast?
-
-<!--more-->
-Of course!

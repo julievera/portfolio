@@ -6,6 +6,7 @@ baseurl: "/blog/"
 url: "https://julievera.github.io/portfolio" # the base hostname & protocol for your site
 twitter_username: julievera
 github_username:  julievera
+permalink: portfolio/_posts/:title
 
 # Build settings
 markdown: redcarpet

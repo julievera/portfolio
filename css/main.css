@@ -119,6 +119,7 @@ h2 {
     text-decoration:overline;
     text-align:center;
     padding-top:75px;
+    font-size: 1.2em;
 }
 
 nav {
@@ -135,7 +136,7 @@ ul {
     text-align:right;
 }
 
-li:nth-child(5){
+li:nth-child(6){
     margin-right: 30px;
 }
 
