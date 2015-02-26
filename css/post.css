@@ -115,7 +115,7 @@ textarea {
     right: 0;
 }
 
-h2 {
+h1 {
     text-decoration:overline;
     text-align:left;
     padding-top:75px;
@@ -178,26 +178,16 @@ footer {
     padding-top:50px;
 }
 
-textarea {
-    width:300px;
-    height:200px;
-}
-
-form {
-    width:400px;
-    height:400px;
-    float:right;
-    margin-right:5%;
-}
 
 a {
     outline: 0;
 }
 
-#post {
+.post {
     padding-top: 120px;
     margin-left: 5%;
     margin-right: 5%;
+    width:750px;
 }
 
 #post-header {
