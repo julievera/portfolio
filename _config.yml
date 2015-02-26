@@ -11,4 +11,4 @@ permalink: portfolio/_posts/:title
 # Build settings
 markdown: redcarpet
 name: blog
-highlighter: true
+highlighter: pygments
