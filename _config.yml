@@ -12,3 +12,4 @@ permalink: portfolio/_posts/:title
 markdown: redcarpet
 name: blog
 highlighter: pygments
+excerpt_separator: "\n\n"
