@@ -646,6 +646,10 @@ a {
         visibility:hidden;
         height:0px;
     }
+
+    #twitterContainer {
+        visibility:hidden;
+    }
 }
 
 @media print,
