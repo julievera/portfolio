@@ -641,16 +641,6 @@ a {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 1300px) {
-    #card6 {
-        visibility:hidden;
-        height:0px;
-    }
-
-    #twitterContainer {
-        visibility:hidden;
-    }
-}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
