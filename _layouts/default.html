@@ -1,20 +1,31 @@
-<!DOCTYPE html>
-<html>
 
-  {% include head.html %}
 
-  <body>
+{% include head.html %}
 
-    {% include header.html %}
+<div class="card" id="card1">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+	{% include nav.html %}
 
-    {% include footer.html %}
+	
+	<div id="post_container">
+		
+		  {% for post in site.posts %}
+		  
+		      <p><h2>{{ post.title }}</h2></p>
+		      <h6>Categories: <span>{{ post.categories }}</span></h6>
+		      <h6>{{ post.date | date:"%A, %B %-d, %Y"}}</h6>
+		      <h6>{{ post.author }}</h6>
+			  <div id="post_body">
+			      
+			      <p>{{ post.content }}</p>	
+		
+			  </div>
+		  {% endfor %}
+		
+	</div>
 
-  </body>
+	
 
-</html>
+</div>
+{% include footer.html %}
+

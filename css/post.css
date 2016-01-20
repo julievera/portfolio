@@ -18,6 +18,7 @@ textarea {
     color: #222;
 }
 
+
 *, html {
     font-size: 1em;
     line-height: 1.4;
@@ -114,26 +115,28 @@ textarea {
     right: 0;
 }
 
-
-h2 {
+h1 {
     text-decoration:overline;
-    text-align:center;
+    text-align:left;
     padding-top:75px;
     font-size: 1.2em;
+    font-weight:400;
 }
 
 nav {
     height: 70px;
     width:100%;
     position:fixed;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid black;
     z-index:1000;
+    background:white;
 }
 
 ul {
     float:right;
     width: 100%;
     text-align:right;
+    margin-top:16px;
 }
 
 li:nth-child(6){
@@ -147,51 +150,13 @@ li {
 
 ul > li:first-child {
     float:left;
-    display: none;
+    display: block;
 }
-
 
 
 span {
     color:#49D897;
 }
-
-.camera {
-    opacity: 0.5;
-    float:left;
-    height:50px;
-    width:50px;
-    margin:10px;
-    z-index:2000;
-    position:absolute;
-}
-
-
-
-#splashtext img {
-    -webkit-animation-duration: 4s; 
-    animation-duration: 4s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 
-    -webkit-animation-timing-function: ease-in-out; 
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-iteration-count:infinite; 
-    animation-iteration-count:infinite; 
-    height:50px;
-    width: 50px;
-    padding-top:50px;
-}
-
-@-webkit-keyframes flash { 
-    0%, 50%, 100% {opacity: 0.8;} 
-    25%, 75% {opacity: 0;} 
-} 
-@keyframes flash { 
-    0%, 50%, 100% {opacity: 0.8;} 
-    25%, 75% {opacity: 0;} 
-} 
-
-
 
 .prettyGreen {
     background-color: #49D897;
@@ -199,271 +164,6 @@ span {
     -moz-transition: all 1.5s ease;
     -o-transition: all 1.5s ease;
     transition: all 1.5s ease;
-}
-
-.card {
-    background-repeat: no-repeat; 
-}
-
-#card1 {
-    background: url("../img/mountains.jpg");
-    background-position:center;
-    background-size:cover;
-    height: 800px;
-}
-
-#card1 h1 {
-    font-size: 5em;
-    font-weight: 300;
-}
-
-#splashtext {
-    width: 500px;
-    height: 150px;
-    text-align:center;
-    padding-top:300px;
-    margin:0 auto;
-    color:white;
-}
-
-#card2 {
-    height: 600px;
-    text-align:center;
-}
-
-#aboutwrapper {
-    padding-top:5%;
-    padding-left:10%;
-    padding-right:10%;
-}
-#aboutwrapper p {
-    margin:30px;
-}
-
-#aboutwrapper p:nth-child(1) {
-    font-size: 1.5em;
-}
-
-#aboutwrapper p:nth-child(2) {
-    font-size: 1em
-}
-
-#aboutwrapper p:nth-child(3) {
-    margin-top: 50px;
-    font-size: 1em;
-}
-
-#aboutwrapper a {
-    color:inherit;
-}
-
-#card3 {
-    background: url("../img/architecture.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:500px;
-}
-
-#card4{
-    height:800px;
-
-}
-
-#worktiles {
-    width: 90%;
-    height: 450px;
-    text-align:center;
-    padding-top: 75px;
-    margin:0 auto;
-    color:white;
-}
-
-.tilerow {
-    padding-top: 30px;
-    position:relative;
-}
-
-.tile {
-    width:150px;
-    height:150px;
-    display:inline-block;
-    padding:1%;
-    color: rgb(20,20,20);
-    position:relative;
-}
-
-.tile img {
-    width:100%;
-    height:100%;
-    -webkit-transition: all 0.3s ease;
-     -moz-transition: all 0.3s ease;
-       -o-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-          transition: all 0.3s ease;
-}
-
-
-.tile img:hover {
-    -webkit-filter: blur(2px);
-}
-
-.tile p {
-    position:absolute;
-    display:none;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    font-size:0.8em;
-    margin-top:10px;
-}
-
-#socialContainer {
-    width:450px;
-    height:400px;
-    float:left;
-    margin-top:5%;
-    margin-left:5%;
-    
-}
-
-#contactContainer {
-    width:450px;
-    height:400px;
-    float:right;
-    margin-top:5%;
-    margin-right:5%;
-}
-
-
-#chicletContainer {
-    width:300px;
-    height:50px;
-    margin:0 auto;
-    padding-top: 100px;
-    clear:both;
-    text-align:center;   
-}
-
-.chiclet {
-    width: 50px;
-    height: 50px;
-    margin-bottom:5px;
-    margin-top:15px;
-}
-
-#twitterContainer {
-    width:400px;
-    height:350px;
-    float:right;
-    margin-left:50px;
-}
-
-.twitter-timeline {
-    height:350px;
-}
-
-label, input, textarea {
-    display:block;
-     font-weight: 300;
-}
-
-
-input[type="submit"] {
-    display:inline-block;
-    width:50px;
-    background-color: #49D897;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    font-weight: 400;
-    font-family: "Open Sans";
-}
-
-#card5 {
-    background: url("../img/tinhouse.jpg");
-    background-attachment: fixed;
-    height:500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-#card6 {
-    height:1000px;
-}
-
-#chart1wrapper {
-    display:block;
-    float:left;
-    padding-left:5%;
-    padding-top:100px;
-}
-
-#chart2wrapper {
-    display:inline-block;
-    float:right;
-    padding-right: 5%;
-    padding-top:50px;
-    margin-top:50px;
-    text-align:right;
-}
-
-#chart3wrapper {
-    display:inline-block;
-    float:right;
-    padding-right: 5%;
-    text-align:right;
-    padding-top:50px;
-}
-
-#chart4wrapper {
-    display:block;
-    float:left;
-    padding-left:5%;
-
-}
-
-
-#chart1 {
-    width:500px;
-    height:300px;
-    margin-top:50px;
-}
-
-#chart2 {
-    width:600px;
-    height:300px;
-}
-
-#chart3 {
-    width:550px;
-    height:300px;
-    margin-top:50px;
-}
-
-#chart4 {
-    width:600px;
-    height:300px;
-    margin-top:50px;
-}
-
-
-
-#card6 h4 {
-    padding-top:5%;
-    padding-left: 5%;
-}
-
-
-#card7 {
-    background-color: #49D897;
-    height:300px;
-}
-
-#card8 {
-    height:800px;
 }
 
 
@@ -478,59 +178,24 @@ footer {
     padding-top:50px;
 }
 
-textarea {
-    width:300px;
-    height:200px;
-}
-
-
-
-form {
-    width:400px;
-    height:400px;
-    float:right;
-    margin-right:5%;
-}
-
-#ss-submit {
-    width:150px;
-}
 
 a {
     outline: 0;
 }
 
-#goback {
-    display:block;
-    background-color: #49D897;
-    border: none;
-    margin:0 auto;
-    padding: 10px 20px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-family: "Open Sans";
-    width:150px;
-    text-align:center;
+.post {
+    padding-top: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:750px;
 }
 
-#thankyoutext {
-    width:200px;
-    height:200px;
-    margin: 0 auto;
+#post-header {
+ 
 }
 
-#thankyoutext h2 {
-    padding-top:350px;
-    text-decoration: none;
-    font-weight:500;
-    color:white;
-}
-
-#card1ty {
-    background-position:fixed;
-    background: url("../img/mountains.jpg");
-    background-size:cover;
-    height: 800px;
+article {
+    min-height:600px;
 }
 
 
@@ -641,6 +306,9 @@ a {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
